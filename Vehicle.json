@@ -1,6 +1,0 @@
-[    
-    {"name":"Lamborgini" ,"model":"Aventador","image": "Lamborghini.jpg", "color":"Red", "quantity":100},    
-    {"name":"Ferrari", "model":"Roma","image": "Ferrari.jpg","color":"Black","quantity":110},  
-    {"name":"Toyota", "model":"Supra","image": "supra.jpg", "color":"White","quantity":200},    
-    {"name":"Audi", "model":"A8","image": "Audi.jpeg", "color":"Black","quantity":150}   
-]
