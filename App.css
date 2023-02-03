@@ -1,0 +1,166 @@
+@import url('https://fonts.cdnfonts.com/css/inner-vintage');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+.but1{
+  margin-left: 47%;
+  margin-top: 4%;
+  margin-bottom: 100px;
+  padding: 20px;
+  width: 200px;
+  font-size: xx-large;
+  font-weight: 1000;
+  font-family: Inner Vintage;
+  animation-name: butt;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  background-color: #fbdf61;
+  cursor: pointer;
+  box-shadow: 2px #282c34;
+}
+.but1:hover{
+  color: white;
+}
+@keyframes butt{
+  0%{
+    background-color: #61dafb;
+  }
+  0%{
+    background-color: #31ad56;
+  }
+  0%{
+    background-color: #fbdf61;
+  }
+  0%{
+    background-color: #fb6161;
+  }
+}
+.card{
+  float: left;
+  align-items: center;
+  padding: 50px;
+  margin-top: 500px;
+  padding-bottom: 100px;
+  align-items: center;
+  border: 4px solid #455679;
+  margin: 9ch;
+  animation-name: br;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+#imgg{
+  width: 200px;
+  height: 100px;
+}
+.stock{
+  color: green;
+}
+body{
+  background-image: linear-gradient(to top,cyan,rgb(171, 47, 182));
+}
+.cart{
+  margin-left: 15%;
+  padding: 14px;
+  width: 150px;
+  background-image: linear-gradient(to top,rgb(255, 0, 0),rgb(255, 238, 0));
+  font-family: Britannic;
+  font-size: x-large;
+  font-weight: 900;
+  cursor: pointer;
+
+}
+.cart:hover{
+color: whitesmoke;
+
+}
+.cartadd{
+  width: 700px;
+  height: 250px;
+  margin-top: 45%;
+  margin-left: 30%;
+  background-color: #ad7b31;
+  border: 1px solid black;
+}
+#mod{
+  border: 4px solid rgb(63, 63, 59);
+  background-color: #fb6161;
+  animation-name: ll;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.wheel{
+  width: 55px;
+  margin-top: 2%;
+  animation-name: wheel;
+  animation-duration: 2s;
+  animation-iteration-count: infinite ;
+}
+@keyframes wheel{
+
+  0%{
+    margin-left: 100%;
+    transform: rotate(180deg);
+  }
+}
+@keyframes ll{
+
+  0%{
+    background-color: #31ad56;
+  }
+  25%{
+    background-color: #3d31ad;
+  }
+  50%{
+    background-color: #ad7b31;
+  }
+  100%{
+    background-color: #ad3192;
+  }
+}
+@keyframes br{
+
+  0%{
+    border: 4px solid rgb(0, 0, 0);
+  }
+  25%{
+    border: 4px solid rgb(255, 255, 255);
+  }
+  50%{
+    border: 4px solid rgb(0, 0, 0);
+  }
+  100%{
+    border: 4px solid rgb(255, 255, 255);
+  }
+}
+#cadd{
+  padding-left: 45%;
+}
